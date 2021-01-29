@@ -74,7 +74,7 @@
         const depositBtn = document.getElementById("addDeposit");
         depositBtn.addEventListener("click", function(){
             const depositNumber = getInputNumber("depositAmount");        
-
+            console.log(depositNumber);
             updateSpanText("currentDeposit", depositNumber);
             updateSpanText("currentBalance", depositNumber);
 
