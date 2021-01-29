@@ -11,12 +11,12 @@ body{
 #transaction-area{
     display: none;
 }
-.deposite{
+.deposit{
     background-color: slateblue;
 
 }
 
-.Withdraw{
+.withdraw{ 
     background-color: salmon;
 }
 .balance{
